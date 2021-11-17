@@ -333,6 +333,13 @@
     }
   }
 
+  .modal {
+    &__close {
+      top: 5px;
+      right: 5px;
+    }
+  }
+
   .button {
     &_main {
       margin-top: 36px;
