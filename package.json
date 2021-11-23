@@ -10,9 +10,15 @@
   "license": "ISC",
   "devDependencies": {
     "@angular/cli": "^13.0.1",
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
     "browser-sync": "^2.27.7",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
     "gulp-rename": "^2.0.0",
     "sass": "^1.43.4"
   },
@@ -20,7 +26,8 @@
     "@types/browser-sync": "^2.26.3",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
-    "gulp-sass": "^5.0.0"
+    "gulp-sass": "^5.0.0",
+    "uuid": "^8.3.2"
   },
   "browserslist": [
     "last 1 version",

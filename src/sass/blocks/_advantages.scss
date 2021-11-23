@@ -32,4 +32,16 @@
       color: #ff0000;
     }
   }
+  &__icon {
+    &_animated {
+      animation: hartbeat 1.5s ease infinite;
+      // animation-name: hartbeat;
+      // animation-duration: 1.5s;
+      // animation-timing-function: ease;
+      // animation-iteration-count: infinite;
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
+  }
 }
